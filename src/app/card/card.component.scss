@@ -1,0 +1,23 @@
+@use '../../scss/variables' as v;
+@use '../../scss/heritages';
+
+.container {
+	margin-bottom: 2em;
+	border: v.$border-style ;
+	border-width: 1px;
+	border-radius: .5rem;
+	width: 30rem;
+	height: calc(100% - 2rem);
+	padding: 0 1rem;
+
+	.title {
+		color: v.$white-color;
+		font-size: 1.2rem;
+		padding: 1rem;
+		border-bottom: v.$border-style;
+	}
+
+	.wrapper {
+		padding: 1rem;
+	}
+}
