@@ -1,0 +1,18 @@
+.red-color {
+	color:red;
+}
+.app-learn {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	height: 100vh;
+	overflow: auto	;
+	padding: 4rem 1em;
+}
+
+p {
+	display: flex;
+	align-items: center;
+	height: 2.5em;
+}

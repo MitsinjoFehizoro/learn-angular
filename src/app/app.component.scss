@@ -1,16 +1,4 @@
-.red-color {
-	color:red;
-}
-.app-root {
+main{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 2em;
-}
-
-p {
-	display: flex;
-	align-items: center;
-	height: 2.5em;
 }

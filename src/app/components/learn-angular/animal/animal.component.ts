@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { AnimalService } from '../services/animal.service';
+import { AnimalService } from '../../../services/animal.service';
 
 @Component({
   selector: 'app-animal',
