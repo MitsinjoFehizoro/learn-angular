@@ -1,9 +1,8 @@
-@use '../../../scss/variables' as v;
 
 .container {
 	width: 8rem;
 	height: 100vh;
-	border-right: v.$border-style;
+	border-right: $border-style;
 }
 
 .logo {
@@ -18,7 +17,7 @@
 	}
 	p{
 		padding:.1rem .5rem;
-		border: v.$border-style;
+		border: $border-style;
 		border-radius: .25rem;
 		font-size: .8rem;
 	}

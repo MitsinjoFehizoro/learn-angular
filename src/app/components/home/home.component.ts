@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import LearnAngularComponent from '../learn-angular/learn-angular.component';
-import { ToolBarComponent } from './tool-bar/tool-bar.component';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +7,7 @@ import { ToolBarComponent } from './tool-bar/tool-bar.component';
   template: `
     <section>
       <div class="title">
-        <h2>Bienvenue dans Learn-Angular</h2>
+        <h2>Bienvenue sur Learn-Angular</h2>
         <p>
           C'est une plateforme que j'ai conçue et développée au cours de mon
           apprentissage du framework Angular.
@@ -18,7 +17,7 @@ import { ToolBarComponent } from './tool-bar/tool-bar.component';
         <div>
           <p>Learn angular <span> > </span> base</p>
           <h1>Base de l'angular</h1>
-          <p>
+          <p>	
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
             praesentium error rerum dolore. Natus quaerat molestias eos hic
           </p>
@@ -176,7 +175,7 @@ import { ToolBarComponent } from './tool-bar/tool-bar.component';
       <div class="menu">
         <div>
           <p>Learn angular <span> > </span> project</p>
-          <h1>Gestion d'employé</h1>
+          <h1>Gestion des employés</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
             praesentium error rerum dolore. Natus quaerat molestias eos hic

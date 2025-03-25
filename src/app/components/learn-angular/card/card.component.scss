@@ -1,8 +1,6 @@
-@use '../../../scss/variables' as v;
-
 .container {
 	margin-bottom: 2em;
-	border: v.$border-style ;
+	border: $border-style ;
 	border-width: 1px;
 	border-radius: .5rem;
 	width: 30rem;
@@ -10,10 +8,10 @@
 	padding: 0 1rem;
 
 	.title {
-		color: v.$white-color;
+		color: $white-color;
 		font-size: 1.2rem;
 		padding: 1rem;
-		border-bottom: v.$border-style;
+		border-bottom: $border-style;
 	}
 
 	.wrapper {
