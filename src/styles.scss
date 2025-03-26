@@ -1,6 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
-@use './app/scss/variables' as v;
-@use './app/scss/heritages';
+@use 'variables' as *;
+@use 'heritages';
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -14,19 +14,66 @@ html {
 }
 
 body {
-	background-color: v.$primary-color;
-	color: rgba(v.$white-color,  .6);
+	background-color: $primary-color;
+	color: rgba($white-color, .6);
 }
 
-h1{
+h1 {
 	font-size: 2rem;
-	color: v.$white-color;
+	color: $white-color;
 }
 
-h2{
-	color: v.$white-color;;
+h2 {
+	color: $white-color;
+	;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+section {
+	width: calc(100vw - 8rem);
+	height: 100%;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	padding: 2rem;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 38rem;
+
+	h2 {
+		margin-bottom: 1rem;
+	}
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	border-bottom: $border-style;
+
+	p {
+		color: $white-color;
+	}
+
+	button {
+		background: $secondary-color !important;
+	}
 }
 
 .btn {
-	@extend %btn
+	@extend %btn;
 }

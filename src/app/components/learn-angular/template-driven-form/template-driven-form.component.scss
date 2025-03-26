@@ -1,0 +1,30 @@
+@use 'variables' as *;
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+
+	input,
+	textarea {
+		padding: 0.5rem 1rem;
+		font-size: .8rem;
+		border-radius: .25rem;
+		border: $border-style;
+		outline: none;
+		background: transparent;
+		color: rgba($white-color, 0.8);
+
+		&:user-valid {
+			border-color: rgba(green, 0.3);
+		}
+
+		&:user-invalid {
+			border-color: rgba(red, 0.3);
+		}
+	}
+
+	.btn-disabled {
+		opacity: 0.2;
+	}
+}

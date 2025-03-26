@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import LearnAngularComponent from '../learn-angular/learn-angular.component';
 
 @Component({
   selector: 'app-home',
   imports: [],
   template: `
-    <section>
+    <section class="section">
       <div class="title">
         <h2>Bienvenue sur Learn-Angular</h2>
         <p>

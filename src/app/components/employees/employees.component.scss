@@ -1,0 +1,14 @@
+@use 'variables' as *;
+
+.wrapper {
+	margin: 1rem 8rem;
+	div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	p{
+		text-align: center;
+		font-size: 0.8rem;
+	}
+}

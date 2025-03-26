@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
   selector: 'app-login',
   imports: [],
   template: `
-    <section>
+    <section class="section">
       <div class="title">
         <h2>Gestion des employés</h2>
 		  <p>Partie de la platerforme <span>Learn Angular</span> utilisée pour gérer les employés</p>

@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   imports: [],
   template: `
     <div class="container">
-      <p class="title">{{ title }}</p>
+      <p class="title-card">{{ title }}</p>
       <div class="wrapper">
         <ng-content />
       </div>

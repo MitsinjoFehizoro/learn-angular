@@ -1,13 +1,20 @@
 import { Component, computed, inject, signal } from '@angular/core';
-import { CardComponent } from "./card/card.component";
+import { CardComponent } from './card/card.component';
 import { CommonModule } from '@angular/common';
-import { EmitterChildComponent } from "./emitter-child/emitter-child.component";
-import { AnimalComponent } from "./animal/animal.component";
+import { EmitterChildComponent } from './emitter-child/emitter-child.component';
+import { AnimalComponent } from './animal/animal.component';
 import { AnimalService } from '../../services/animal.service';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 @Component({
   selector: 'app-learn-angular',
-  imports: [CardComponent, CommonModule, EmitterChildComponent, AnimalComponent],
+  imports: [
+    CardComponent,
+    CommonModule,
+    EmitterChildComponent,
+    AnimalComponent,
+    TemplateDrivenFormComponent,
+  ],
   template: `
     <div class="app-learn">
       <app-card [title]="'Interpolation'">
@@ -72,6 +79,10 @@ import { AnimalService } from '../../services/animal.service';
         <p>Double count : {{ doubleCount() }}</p>
         <p class="btn" (click)="increment()">Increment</p>
         <p class="btn" (click)="setToZero()">Set to 0</p>
+      </app-card>
+
+      <app-card [title]="'Template Driven Form'">
+        <app-template-driven-form />
       </app-card>
     </div>
   `,

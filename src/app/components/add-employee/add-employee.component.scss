@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+header {
+	div {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	.back {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 3rem;
+		height: 2rem;
+		margin: 1rem 0;
+		border-radius: .4rem;
+		background: $secondary-color;
+		cursor: pointer;
+		color : rgba($white-color, 0.6);
+		transition: 0.25s ease-in-out;
+		&:hover{
+			color: $white-color;
+		}
+	}
+}
